@@ -257,7 +257,7 @@ body {
     margin-top: 20px;
 }
 
-.info-text {}
+
 
 .info-text+* {
     margin-top: 40px;
@@ -308,6 +308,6 @@ body {
     text-align: left;
 }
 
-.github {}
+
 
 /* /footer */
