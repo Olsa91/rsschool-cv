@@ -1,0 +1,313 @@
+/* reset and base styles */
+*,
+*::before,
+*::after {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+
+/* links */
+a,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+/* common */
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+p+p {
+    margin-top: 1em;
+}
+
+ul {
+    list-style: none;
+}
+
+img,
+svg {
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+}
+
+/* form */
+input,
+textarea,
+button,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button,
+input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+legend {
+    display: block;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.065em;
+    text-align: left;
+}
+
+/* utility */
+
+.none {
+    display: none !important;
+}
+
+.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+/* grid */
+.container {
+    width: 1600px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-top: auto;
+    margin-right: auto;
+
+}
+
+/* Header */
+.header {
+    background-color: white;
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+
+
+
+    font-family: Raleway;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 0;
+    display: flex;
+
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 48px;
+}
+
+
+/* /Header */
+
+/* main */
+
+.main {
+    background-color: white;
+
+
+}
+
+.container-main {
+    height: 403px;
+    width: 1161px;
+    margin-left: 219px;
+    margin-right: 220px;
+
+
+}
+
+.fio {
+    position: absolute;
+    width: 189px;
+    height: 112px;
+    left: 200px;
+    top: 177px;
+    font-weight: 400;
+    font-size: 61.4817px;
+    line-height: 126.66%;
+}
+
+.picture {
+    position: absolute;
+    width: auto;
+    height: 413px;
+    left: 200px;
+    top: 380px;
+
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgb(133, 118, 54), 0 0 13px #333;
+}
+
+
+.info {
+    position: absolute;
+    width: 593px;
+    height: 151px;
+    left: 800px;
+    top: 415px;
+
+}
+
+.info-heading {
+    font-family: Raleway;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+
+.info-heading+* {
+    margin-top: 20px;
+}
+
+.info-text {}
+
+.info-text+* {
+    margin-top: 40px;
+}
+
+/* /main */
+
+/* footer */
+.footer {
+    margin-left: 200px;
+    margin-right: 200px;
+
+    background-color: white;
+    padding: 1491px 0 155px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style-type: none;
+    padding: 0;
+    margin-right: 0;
+    display: flex;
+
+}
+
+.footer-content li {
+    display: inline-block;
+    margin-right: 48px;
+}
+
+.logo {
+    height: 116px;
+    width: 200px;
+    left: 30px;
+    top: 14px;
+    border-radius: 0px;
+
+}
+
+.data {
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.github {}
+
+/* /footer */
